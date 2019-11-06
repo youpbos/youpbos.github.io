@@ -1,0 +1,70 @@
+body{
+    margin: 0%; 
+    background-image: url(../plaatjes/background.jpg);
+    background-size: 100%;
+    display: flex;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: grey
+}
+
+li{
+    color: white;
+    background-color: grey;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: darkred;
+    color: white;
+  }
+
+  a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  padding: 0%;
+  color: white;
+}
+
+#foto{
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+}
+#midden{
+  height: 1500px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50%;
+}
+h1{
+  font-size: 60px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  color: black;
+}

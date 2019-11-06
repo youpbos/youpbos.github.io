@@ -1,0 +1,120 @@
+body{
+    margin: 0%; 
+    background-image: url(../plaatjes/background.jpg);
+    background-size: 100%;
+    display: flex;
+    width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: grey
+}
+
+li{
+    color: white;
+    background-color: grey;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: darkred;
+    color: white;
+  }
+
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+footer {color:white;}
+#midden{
+    height: 100%;
+    width: 100%;;
+    display: inline-block;
+}
+
+
+img{
+    height: 600px;
+    width: 475px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5%;
+    margin-left: 26%;
+    border-radius: 75px;
+}
+header{
+    width:20%;
+}
+main {
+    width:80%;
+    display:flex;
+    flex-direction: column;
+}
+#mijzelf2{
+    display: none;
+}
+
+h1{
+    font-size: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+footer{
+    display:flex;
+}
+
+
+#all{
+	width:100%;
+	margin: 0 auto; 
+
+#likes{
+	height:5px;
+	width:50%;
+	background:#0000ee;
+	float:left;
+}
+#dislikes{
+	height:5px;
+	width:50%;
+	background:#ccc;
+	float:right;
+}
+
+#bar{
+	margin:0 auto;
+	width:60%;
+}
